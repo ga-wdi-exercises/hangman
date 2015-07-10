@@ -25,8 +25,9 @@ Hangman.prototype = {
   },
 
   selectRandomWord: function() {
-    var index = Math.round((this.words.length - 1) * Math.random());
-    return this.words[index];
+    // var index = Math.round((this.words.length - 1) * Math.random());
+    // return this.words[index];
+    return prompt("What word will Player 2 be guessing?")
   },
 
   hasWordLetter: function(letter) {
