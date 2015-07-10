@@ -5,27 +5,32 @@ body {
   font-size: 30px;
 }
 
-section.game-play {
+#game_play_area {
+  height: 200px;
   margin: 30px;
   width: 100%;
 }
-
-section.game-play > figure {
+#hangman_area {
   width: 50%;
   height: 100%;
   float: right;
 }
-
-section.game-play > aside {
+#letter_area {
   width: 46%;
   height: 100%;
+  float: left;
 }
-
-section.game-play > aside > div:first-child {
-  margin-bottom: 20px;
+#letters_used {
+  height: 50%;
 }
-
-div.game-word {
+#guess_box {
+  height: 50%;
+}
+#guessed_letters{
+  font-size: 20px;
+  height: 70%;
+}
+#word_string {
   letter-spacing: 10px;
   font-size: 100px;
   text-align: center;
@@ -33,6 +38,8 @@ div.game-word {
 
 input {
   border: 5px solid white;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
   border-radius:10px;
   padding: 15px;
   background: rgba(255,255,255,0.5);
@@ -48,6 +55,8 @@ input {
   padding:14px;
   background-color:rgba(255,0,51,1);
   border:1px solid #f03;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
   border-radius:10px;
 }
 .button:hover {
