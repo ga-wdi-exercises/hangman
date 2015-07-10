@@ -14,6 +14,7 @@ Your game must...
 
 * Render in the browser.
 * Include separate HTML/CSS/Javascript files.
+  - We have provided you with some starter code. Feel free to make changes to it.
 * Use Javascript and/or jQuery for DOM manipulation.
 
 #### Minimum Requirements
@@ -25,10 +26,13 @@ Your game must...
 * If not, the number of turns left is decremented.
 * NOTE: No images are required!
 
-#### Bonus
+#### Bonuses
 
+Feel free to take on any/all of these!  
+
+* Show each letter as it's guessed.
 * All 26 letters are shown and can be clicked on.
-* When the user clicks a letter, it is grayed out and rendered unclickable for the rest of the game.
+  * When the user clicks a letter, it is grayed out and rendered unclickable for the rest of the game.
 * Create a visual representation of the hangman (e.g., stick figure).
 * Have the game randomly pick a word from a dictionary. This means the user would not have to submit a word at the start of the game.
 * Add a timer to the game.
